@@ -1,7 +1,7 @@
 <#
     Robot Framework Installation Script
-    Author: May Anne Luyun   
-      
+    Author: May Anne Luyun
+
     .DESCRIPTION
     Downloads and installs Chocolatey, Git, Python 3, Robot Framework and libraries, Webdriver Manager on local machine.
 
@@ -32,8 +32,8 @@ py -m pip install -U pip
 
 #Install Robot Framework and Other Libraries
 echo "Installing Robot Framework..."
-py -m pip install robotframework
-py -m pip install robotframework-selenium2library
+py -m pip install robotframework==3.2.2
+py -m pip install robotframework-seleniumlibrary
 py -m pip install robotframework-angularjs
 py -m pip install robotframework-appiumlibrary
 py -m pip install webdriver_manager
@@ -41,4 +41,3 @@ py -m pip install webdriver_manager
 #Test Run of RF Scripts
 echo "Run sample RF Scripts to test Robot Framework installation"
 robot .
-
