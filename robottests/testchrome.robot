@@ -1,5 +1,5 @@
 *** Settings ***
-Library           Selenium2Library
+Library           SeleniumLibrary
 Resource            CommonResource.resource
 Force Tags          chrome
 Suite Teardown    Close all browsers
