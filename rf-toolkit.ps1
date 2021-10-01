@@ -37,6 +37,10 @@ py -m pip install robotframework-seleniumlibrary
 py -m pip install robotframework-angularjs
 py -m pip install robotframework-appiumlibrary
 py -m pip install webdriver_manager
+py -m pip install robotframework-pabot
+py -m pip install robotframework-faker
+py -m pip install robotframework-metrics
+
 
 #Test Run of RF Scripts
 echo "Run sample RF Scripts to test Robot Framework installation"
