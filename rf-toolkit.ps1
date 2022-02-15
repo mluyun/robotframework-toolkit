@@ -33,13 +33,21 @@ py -m pip install -U pip
 #Install Robot Framework and Other Libraries
 echo "Installing Robot Framework..."
 py -m pip install robotframework==3.2.2
-py -m pip install robotframework-seleniumlibrary
+py -m pip install robotframework-seleniumlibrary==5.1.3
 py -m pip install robotframework-angularjs
 py -m pip install robotframework-appiumlibrary
-py -m pip install webdriver_manager
-py -m pip install robotframework-pabot
+py -m pip install robotframework-pythonlibcore==2.2.1
+py -m pip install webdriver_manager==3.3.0
+py -m pip install robotframework-pabot==2.0.1
 py -m pip install robotframework-faker
-py -m pip install robotframework-metrics
+py -m pip install robotframework-metrics==3.2.0
+
+echo "AWS CLI GUI Installer will be displayed next... Please finish installing and restart the rf toolkit to validate if sample robot tests are passing"
+sleep 10s
+
+# Install AWS CLI v2
+msiexec.exe /i https://awscli.amazonaws.com/AWSCLIV2.msi
+
 
 
 #Test Run of RF Scripts
