@@ -48,8 +48,6 @@ sleep 10s
 # Install AWS CLI v2
 msiexec.exe /i https://awscli.amazonaws.com/AWSCLIV2.msi
 
-
-
 #Test Run of RF Scripts
 echo "Run sample RF Scripts to test Robot Framework installation"
 robot .
