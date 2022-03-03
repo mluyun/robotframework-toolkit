@@ -12,13 +12,13 @@ If Chrome, Firefox and Edge browsers are installed on your local machine, RF-Too
 
 | Tools | Version |
 | ----- | ------- |
-| Robot Framework | 3.2.2 |
-| RF Selenium Library | 5.1.3 |
+| Robot Framework | 4.1.3 |
+| RF Selenium Library | 6.0.0 |
 | RF Angular JS | latest stable |
 | RF Appium Library | latest stable |
-| RF Python Libcore | 2.2.1 |
-| Webdriver Manager | 3.3.0 |
-| RF Pabot | 2.0.1 |
+| RF Python Libcore | 3.0.0 |
+| Webdriver Manager | 3.5.2 |
+| RF Pabot | 2.1.0 |
 | RF Faker | latest stable |
 | RF Metrics | 3.2.0 |
 | AWS CLI | v2 |
