@@ -8,7 +8,7 @@
     .NOTES
     1. Make sure your machine has the latest Microsoft Windows Updates. (Installation may take a while if machine is not up to date.)
 	2. Run via Powershell (Run as Administrator).
-	3. Execute "powershell -ExecutionPolicy Bypass rf-toolkit.ps1"
+	3. Execute "powershell -ExecutionPolicy Bypass .\rf-toolkit.ps1"
 
 	Windows Powershell restart is required after the Robot Framework installation to successfully run python and robot.
 	Re-open the powershell as Administrator again and re-run the rf-toolkit.ps1
@@ -41,6 +41,7 @@ py -m pip install webdriver_manager==3.5.2
 py -m pip install robotframework-pabot==2.1.0
 py -m pip install robotframework-faker
 py -m pip install robotframework-metrics==3.2.0
+py -m pip install selenium==4.1.3
 
 # Refresh Environment Variables
 refreshenv
@@ -50,5 +51,5 @@ echo "Run sample RF Scripts to test Robot Framework installation"
 robot .
 
 # Install AWS CLI v2
-echo "AWS CLI GUI Installer will be displayed next... Please finish installing and restart the rf toolkit to validate if sample robot tests are passing"
+echo "AWS CLI GUI Installer will be displayed next..."
 msiexec.exe /i https://awscli.amazonaws.com/AWSCLIV2.msi
