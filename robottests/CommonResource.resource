@@ -1,5 +1,6 @@
 *** Settings ***
 Library     webdriverManager.py
+Library     SeleniumLibrary
 
 *** Keywords ***
 Open ${BROWSER} To Google
@@ -8,12 +9,12 @@ Open ${BROWSER} To Google
     Maximize Browser Window
     Google Should Be Open
 
-Search For adobe
-    Input Text   q   adobe
+Search For Robot Framework
+    Input Text   q   Robot Framework
     Press Keys    q   RETURN
 
-Result Should Contain Adobe
-    Wait Until Page Contains  adobe.com  30 s
+Result Should Contain    [Arguments]    ${expectedValue}
+    Wait Until Page Contains  ${expectedValue}  30 s
 
 Google Should Be Open
     Location Should Contain    www.google.com

@@ -1,14 +1,11 @@
 *** Settings ***
-Library           SeleniumLibrary
 Resource            CommonResource.resource
 Force Tags          chrome
-Suite Teardown    Close all browsers
+Suite Teardown    Close All Browsers
+
 
 *** Test Cases ***
-Google Adobe And Find adobe.com
+Google Robot Framework And Find robotframework.org
     Open Chrome To Google
-    Search For Adobe
-    Result Should Contain Adobe
-
-
-
+    Search For Robot Framework
+    Result Should Contain    robotframework.org

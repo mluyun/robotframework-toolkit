@@ -1,13 +1,11 @@
 *** Settings ***
-Library           SeleniumLibrary
 Resource            CommonResource.resource
 Force Tags          firefox
 Suite Teardown    Close all browsers
 
+
 *** Test Cases ***
-Google Adobe And Find adobe.com
+Google Robot Framework And Find robotframework.org
     Open Firefox To Google
-    Search For Adobe
-    Result Should Contain Adobe
-
-
+    Search For Robot Framework
+    Result Should Contain    robotframework.org
