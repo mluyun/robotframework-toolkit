@@ -1,9 +1,8 @@
 # Robot Framework Installation Toolkit Guide
-<<<<<<< HEAD
 
 Downloads and installs Chocolatey, Git, Python 3, Robot Framework and libraries, Webdriver Manager on local machine.
-=======
->>>>>>> 7d32089 (updated README)
+
+Downloads and installs Chocolatey, Git, Python 3, Robot Framework and libraries, Webdriver Manager on local machine.
 
 1. Make sure your machine has the latest Microsoft Windows Updates. (Installation may take a while if machine is not up to date.)
 2. Run via Powershell (Run as Administrator).
