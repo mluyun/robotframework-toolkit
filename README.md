@@ -6,7 +6,7 @@ Downloads and installs Chocolatey, Git, Python 3, Robot Framework and libraries,
 2. Run via Powershell (Run as Administrator).
 3. Execute "powershell -ExecutionPolicy Bypass -f .\rf-toolkit.ps1"
 
-If Chrome, Firefox and Edge browsers are installed on your local machine, RF-Toolkit.Robottests should pass.
+If Chrome, Firefox and Edge browsers are installed on your local machine, robotframework-toolkit.robottests should pass.
 <hr><br>
 
 | Tools | Version |
@@ -14,7 +14,7 @@ If Chrome, Firefox and Edge browsers are installed on your local machine, RF-Too
 | Chocolatey | latest stable |
 | Git | latest stable |
 | Python 3 | latest stable |
-| Robot Framework | 4.1.3 |
+| Robot Framework | 5.0 |
 | RF Selenium Library | 6.0.0 |
 | RF Angular JS | latest stable |
 | RF Appium Library | latest stable |
@@ -22,5 +22,5 @@ If Chrome, Firefox and Edge browsers are installed on your local machine, RF-Too
 | Webdriver Manager | 3.5.2 |
 | RF Pabot | 2.1.0 |
 | RF Faker | latest stable |
-| RF Metrics | 3.2.0 |
+| RF Metrics | 3.3.3 |
 | Selenium | 4.1.3 |

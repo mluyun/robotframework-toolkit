@@ -37,7 +37,7 @@ py -m pip install robotframework-pythonlibcore==3.0.0
 py -m pip install webdriver_manager==3.5.2
 py -m pip install robotframework-pabot==2.5.3
 py -m pip install robotframework-faker
-py -m pip install robotframework-metrics==3.2.0
+py -m pip install robotframework-metrics==3.3.3
 py -m pip install selenium==4.1.3
 
 # Refresh Environment Variables
