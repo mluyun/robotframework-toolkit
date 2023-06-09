@@ -1,6 +1,6 @@
 *** Settings ***
 Resource            CommonResource.resource
-Force Tags          chrome
+Test Tags          chrome
 Suite Teardown    Close All Browsers
 
 

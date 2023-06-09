@@ -1,6 +1,6 @@
 *** Settings ***
 Resource            CommonResource.resource
-Force Tags          firefox
+Test Tags          firefox
 Suite Teardown    Close all browsers
 
 

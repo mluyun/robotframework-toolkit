@@ -1,6 +1,6 @@
 *** Settings ***
 Resource            CommonResource.resource
-Force Tags          edge
+Test Tags          edge
 Suite Teardown    Close all browsers
 
 
