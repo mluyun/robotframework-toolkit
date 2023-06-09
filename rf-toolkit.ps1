@@ -29,16 +29,17 @@ py -m pip install -U pip
 
 #Install Robot Framework and Other Libraries
 echo "Installing Robot Framework..."
-py -m pip install robotframework==5.0
-py -m pip install robotframework-seleniumlibrary==6.0.0
+py -m pip install robotframework==6.1rc1
+py -m pip install robotframework-seleniumlibrary==6.1.0
 py -m pip install robotframework-angularjs
 py -m pip install robotframework-appiumlibrary
-py -m pip install robotframework-pythonlibcore==3.0.0
-py -m pip install webdriver_manager==3.5.2
-py -m pip install robotframework-pabot==2.5.3
+py -m pip install robotframework-pythonlibcore==4.1.2
+py -m pip install webdriver_manager==3.8.6
+py -m pip install robotframework-pabot==2.15.0
 py -m pip install robotframework-faker
 py -m pip install robotframework-metrics==3.3.3
-py -m pip install selenium==4.1.3
+py -m pip install selenium==4.10.0
+py -m pip install robotframework-robocop==2.8.1
 
 # Refresh Environment Variables
 refreshenv
