@@ -25,5 +25,5 @@ If Chrome, Firefox and Edge browsers are installed on your local machine, robotf
 | RF Pabot | 2.15.0 |
 | RF Faker | latest stable |
 | RF Metrics | 3.3.3 |
-| Selenium | 4.10.0 |
+| Selenium | 4.8.3 |
 | RF Robocop | 2.8.1 |
