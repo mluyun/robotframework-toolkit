@@ -1,12 +1,13 @@
 *** Settings ***
-Library     webdriverManager.py
 Library     SeleniumLibrary
+Library    drivermanagement.py
 
 *** Keywords ***
 Open ${BROWSER} To Google
-    ${webdriver_path}=    webdriverManager.Get Webdriver Path    ${BROWSER}
-    Open Browser    https://www.google.com  ${BROWSER}    executable_path=${webdriver_path}
-    Maximize Browser Window
+    ${driver_options}=    drivermanagement.Get Webdriver Options    ${BROWSER}
+    Open Browser    https://www.google.com  ${BROWSER}    options=${driver_options}
+    ${screen_size}=    Get Window Size    ${True}
+    Log To Console    Screen Size upon browser instantiation: ${screen_size}
     Google Should Be Open
 
 Search For Robot Framework

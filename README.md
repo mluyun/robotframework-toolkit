@@ -13,17 +13,16 @@ If Chrome, Firefox and Edge browsers are installed on your local machine, robotf
 
 | Tools | Version |
 | ----- | ------- |
-| Chocolatey | latest stable |
-| Git | latest stable |
-| Python 3 | latest stable |
-| Robot Framework | 6.1rc1 |
-| RF Selenium Library | 6.1.0 |
+| Chocolatey | latest stable | see https://chocolatey.org/install
+| Git | latest stable | see https://community.chocolatey.org/packages?q=Git
+| Python 3 | latest stable | see https://community.chocolatey.org/packages?q=python
+| Robot Framework | 6.1 |
+| RF Selenium Library | 6.1.1 |
 | RF Angular JS | latest stable |
 | RF Appium Library | latest stable |
-| RF Python Libcore | 4.1.2 |
-| Webdriver Manager | 3.8.6 |
-| RF Pabot | 2.15.0 |
+| RF Python Libcore | 4.2.0 |
+| RF Pabot | 2.16.0 |
 | RF Faker | latest stable |
 | RF Metrics | 3.3.3 |
-| Selenium | 4.8.3 |
-| RF Robocop | 2.8.1 |
+| Selenium | 4.11.2 |
+| RF Robocop | 4.1.0 |

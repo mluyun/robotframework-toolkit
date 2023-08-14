@@ -1,11 +1,11 @@
 *** Settings ***
 Resource            CommonResource.resource
+Suite Setup    Open Firefox To Google
 Test Tags          firefox
-Suite Teardown    Close all browsers
+Test Teardown    Close Browser
 
 
 *** Test Cases ***
 Google Robot Framework And Find robotframework.org
-    Open Firefox To Google
     Search For Robot Framework
     Result Should Contain    robotframework.org
